@@ -1,0 +1,36 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.757
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FlintTest", "src\FlintTest\FlintTest.csproj", "{A778AB40-89BF-4EF5-9F9E-37E9E856CA9B}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "nupkg", "nupkg", "{5990BC9A-6AB4-4632-9488-E2240F6C110C}"
+	ProjectSection(SolutionItems) = preProject
+		nupkg\pack_abp_modules.ps1 = nupkg\pack_abp_modules.ps1
+		nupkg\publish.ps1 = nupkg\publish.ps1
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{BFB1C2A8-560D-4080-9DB6-C8D35C9238BD}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A778AB40-89BF-4EF5-9F9E-37E9E856CA9B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A778AB40-89BF-4EF5-9F9E-37E9E856CA9B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A778AB40-89BF-4EF5-9F9E-37E9E856CA9B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A778AB40-89BF-4EF5-9F9E-37E9E856CA9B}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{A778AB40-89BF-4EF5-9F9E-37E9E856CA9B} = {BFB1C2A8-560D-4080-9DB6-C8D35C9238BD}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {E9A2C71D-D42D-4064-9A37-F5652479128A}
+	EndGlobalSection
+EndGlobal
